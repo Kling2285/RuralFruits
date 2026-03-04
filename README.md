@@ -79,3 +79,10 @@ npm install
 
 # 7. 开发环境启动
 npm run dev
+
+<img width="693" height="336" alt="image" src="https://github.com/user-attachments/assets/c2a85776-7b32-4aa7-932b-7dba819492b5" />
+<img width="693" height="335" alt="image" src="https://github.com/user-attachments/assets/1169f4de-83b1-466c-bac1-3bd9ef220c74" />
+<img width="693" height="306" alt="image" src="https://github.com/user-attachments/assets/91e1451b-485f-447f-b712-3c83f74bfd56" />
+
+
+
