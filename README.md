@@ -55,3 +55,27 @@
 - MySQL 8.0+
 - Node.js 16+
 - Maven 3.6+
+
+# 1. 克隆代码仓库
+git clone https://github.com/Kling2285/RuralFruits.git
+
+# 2. 进入后端项目目录
+cd RuralFruits/RuralFruits
+
+# 3. 修改数据库配置（application.properties）
+spring.datasource.url=jdbc:mysql://localhost:3306/rural-revitalization?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+spring.datasource.username=你的数据库用户名
+spring.datasource.password=你的数据库密码
+
+# 4. 编译并启动项目
+mvn clean package
+java -jar target/RuralFruits-0.0.1-SNAPSHOT.jar
+
+# 5. 进入前端项目目录
+cd ../vue-ruralfruits
+
+# 6. 安装依赖
+npm install
+
+# 7. 开发环境启动
+npm run dev
